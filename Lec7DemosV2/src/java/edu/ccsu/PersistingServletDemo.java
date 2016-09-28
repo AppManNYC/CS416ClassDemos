@@ -65,7 +65,7 @@ public class PersistingServletDemo extends HttpServlet {
             }
             context.setAttribute("contextCount", contextCount);
             
-            out.println("<form action=\"PersistingServletDemo\" method\"post\">");
+            out.println("<form action=\"PersistingServletDemo\" method=\"post\">");
             if (loggedOnUser == null || loggedOnUser.trim().length() == 0) {
                 out.println("Enter your name <input type=\"textbox\" name=\"name\"/><br/>");
             }else{

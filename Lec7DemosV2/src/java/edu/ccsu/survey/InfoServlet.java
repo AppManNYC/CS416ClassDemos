@@ -42,7 +42,7 @@ public class InfoServlet extends HttpServlet {
                 out.println("Name: " + name + "<br />");
                 out.println("Sex: " + sex + "<br />");
             } else {
-                out.println("Name: <input type=\"textbox\" name=\"name\" /><br />");
+                out.println("Name: <input type=\"text\" name=\"name\" /><br />");
                 out.println("Sex:  Male <input type=\"radio\" name=\"sex\" value=\"Male\" checked/> Female <input type=\"radio\" name=\"sex\" value=\"Female\" /><br />");
             }
             out.println("<input type=\"submit\" value=\"Submit\" /><br />");
