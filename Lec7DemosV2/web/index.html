@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="SimpleServlet" method="GET">
+            name<input type="text" name="name" /><br/>
+            <input type="checkbox" name="vehicles" value="Car"/>Car<br/>
+            <input type="checkbox" name="vehicles" value="Bike"/>Bike<br/>
+            <input type="checkbox" name="vehicles" value="Train"/>Train<br/>
+            <input type="checkbox" name="vehicles" value="Plane"/>Plane<br/>
+            <input type="submit" value="Submit" />
+        </form>
+        <form action="SimpleServlet" method="POST">
+            name<input type="text" name="name" /><br/>
+            <input type="checkbox" name="vehicles" value="Car"/>Car<br/>
+            <input type="checkbox" name="vehicles" value="Bike"/>Bike<br/>
+            <input type="checkbox" name="vehicles" value="Train"/>Train<br/>
+            <input type="checkbox" name="vehicles" value="Plane"/>Plane<br/>
+            <input type="submit" value="Submit" />
+        </form>
+        <form action="CalculatorServlet" method="POST">
+            num1<input type="text" name="num1" /><br/>
+            num2<input type="text" name="num2" /><br/>
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
